@@ -43,7 +43,7 @@ $cadastro->setObservacao($_POST['observacao']);
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <div class="navbar-nav">
                                         <a class="nav-link active" aria-current="page" href="index.php"> Cadastrar</a>
-                                        <a class="nav-link" href="pagina2.php">Consultar</a>
+                                        <a class="nav-link" href="#">Consultar</a>
                                     </div>
                                 </div>
                             </div>
