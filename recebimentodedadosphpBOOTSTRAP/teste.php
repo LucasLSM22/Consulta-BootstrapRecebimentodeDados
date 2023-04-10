@@ -78,14 +78,9 @@ $cadastro->setObservacao($_POST['observacao']);
             <div class="col bg-white">
                 <!implementando a tabela ->
                     <div bs-primary >
-                    <figure class="text-start">
-                        <blockquote class="blockquote">
-                            <h4><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;Consultar - Contatos agendados</b></h4>
-                        </blockquote>
+                    <div class="col bg-white d-flex justify-content-center">
+                       <div><br>
+                       <h3 class="text-start fs-3">Consultar - contatos agendados</h3>
 
                         <table widht="50%" border=0 cellpadding="10" cellspacing=0 align=center>
                             
@@ -106,6 +101,8 @@ $cadastro->setObservacao($_POST['observacao']);
                                 </tr>
                         </table>
                     </div>
+                </div> 
+            </div>
             </div>
 
             <div class="col-1">
